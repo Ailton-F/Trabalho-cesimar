@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 /*VARS*/
-*{
-    margin: 0
+
+* {
+    margin: 0;
 }
+
 
 :root{
     --gray: #8492A6;
@@ -33,6 +35,12 @@
     background-color: rgba(254, 225, 174, .7);
     padding: 16px 0px;
 }
+
+/*
+.main .container div {
+    display: inline-block;
+}
+*/
 
 /*STYLES ASSETS*/
 /*Header*/
@@ -80,6 +88,75 @@
 
 /*main*/
 .main {
-    max-width: auto;
-    background:  url('assets/img/bg1.png') no-repeat;
-}   
+    background: url('assets/img/bg1.png') no-repeat;
+    background-size: cover;
+    padding-top: 92px;
+}
+
+.main-title {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: white;
+    width: 508px;
+
+}
+
+.main-subtitle {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+    width: 463px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.main-ilink-div{
+    position: relative;
+}
+
+.main-ilink {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--aco);
+    padding: 16px 28px;
+    width: 195px;
+    background-color: #FAB900;
+    text-decoration: none;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.border {
+    width: 218px;
+    height: 43px;
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    position: relative;
+    top: 26px;
+    right: 210px;
+}
+
+.info-title-main {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #E0E6ED;
+}
+
+.info-text-main {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    width: 326px;
+}
