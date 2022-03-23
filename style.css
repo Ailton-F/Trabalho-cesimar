@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+/*VARS*/
+*{
+    margin: 0
+}
+
+:root{
+    --gray: #8492A6;
+    --black2: #1F2D3D;
+    --aco: #273444;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+/*POSITION ASSETS*/
+/*containers*/
+.containerh {
+    max-width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.msg-container{
+    max-width: auto;
+    clear: both;
+    background-color: rgba(254, 225, 174, .7);
+    padding: 16px 0px;
+}
+
+/*STYLES ASSETS*/
+/*Header*/
+.navbar ul{
+    padding: 0;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 9px 26px;
+    padding-left: 42px;
+    position: relative;
+    top: -27px;
+    left: 30%;
+}
+
+.nlink{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--gray);
+}
+
+.ilink{
+    color: var(--black2);
+    width: 113px;
+    height: 25px;
+    background-color: #FAB900;
+}
+
+.ilink a{
+    color: var(--black2);
+}
+
+/*msg*/
+.msg {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--aco);
+}
+
+/*main*/
+.main {
+    max-width: auto;
+    background:  url('assets/img/bg1.png') no-repeat;
+}   
