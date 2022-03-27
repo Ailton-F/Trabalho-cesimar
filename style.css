@@ -332,6 +332,7 @@ body {
 
 .btn1{
     margin-left: 230px;
+    margin-right: 5px;
 }
 
 /*date*/
@@ -358,7 +359,7 @@ body {
     height: 174px;
     border: .5px solid #3C4858;
     box-sizing: border-box;
-    margin-left: 400px;
+    margin-left: 330px;
 }
 
 .info-dates{
@@ -372,7 +373,7 @@ body {
     position: absolute;
     z-index: 1;
     margin-top: 70px;
-    margin-left: 466px;
+    margin-left: 390px;
 }
 
 .important-date{
@@ -396,7 +397,7 @@ body {
 
 .black-retangle{
     background-color: black;
-    width: 400px;
+    width: 330px;
     height: 2px;
     margin-top: 85px;
 }
@@ -412,7 +413,7 @@ body {
 
 .day {
     border-left: solid 1px #D3DCE6;
-    margin-right: 130px;
+    margin-right: 200px;
     height: 300px;
 }
 
@@ -451,7 +452,7 @@ body {
 .download-div{
     display: inline;
     position: absolute;
-    margin-left: -300px;
+    margin-left: -430px;
     margin-top: 350px;
 }
 
@@ -462,7 +463,7 @@ body {
     box-shadow: 0px 20px 20px #8492A6;
     display: -webkit-inline-box;
     width: 100%;
-    height: 480px;
+    height: 544px;
 }
 
 .news-div1{
@@ -557,6 +558,7 @@ body {
     width: 489px;
     height: 44px;
     color: #C0CCDA;
+    margin-bottom: 49px;
 }
 
 .status-news{
@@ -596,5 +598,186 @@ body {
 }
 
 .arrow-y, .all-link{
-    margin-top: 53px;
+    margin-top: 0px;
+}
+
+.btn-line{
+    display: -webkit-inline-box;
+}
+
+/*guests*/
+
+.guests-bg{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 120%;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#EB5151;;
+    text-transform: uppercase;
+    opacity: 0.05;
+    margin-top: 0px;
+    margin-left: 13%;
+}
+
+.guests-subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #273444;
+}
+
+.red-retangle{
+    width: 116px;
+    height: 4px;
+    background: #EB5151;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+.guests-title{
+    margin-left: 800px;
+    margin-top: -240px;
+}
+
+.arrowA{
+    position: absolute;
+    top: 2950px;
+    left: 260px;
+    width: 110px;
+    height: 98px;
+}
+
+.arrowB{
+    position: absolute;
+    top: 2870px;
+    left: 300px;
+}
+
+.guest-photos{
+    display: inline-block;
+    margin-top: 83px;
+    margin-left: 380px;
+}
+
+.central-photo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.arrowC{
+    position: absolute;
+    top: 2860px;
+    left: 370px;
+}
+
+.previous-editions{
+    width: 100%;
+    height: 236px;
+    background: linear-gradient(268.7deg, rgba(64, 222, 99, 0.17) 4.8%, rgba(229, 233, 242, 0) 66.94%);
+    margin-top: 103px;
+}
+
+.green-retangle{
+    width: 356px;
+    height: 2px;
+    margin-top: 90px;
+    background: #23C947;
+}
+.edition-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #273444;
+}
+
+.edition-content{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 380px;
+}
+
+.edition-div{
+    display: inline-block;
+}
+
+.black-pdf{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.version1, .version2, .version3, .version4{
+    width: 102px;
+    height: 99px;
+    border-radius: 5.66667px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+    color: #F9FAFC;
+    margin-right: 15px;
+}
+
+.version1{
+    background: #23C947;
+}
+
+.version2{
+    background: #273444;
+}
+
+.version3{
+    background: #273444;
+}
+
+.version4{
+    background: #D3DCE6;
+}
+
+.download-version{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F9FAFC;
+}
+
+.waiting-status{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #3C4858;
+    text-decoration: none;
+}
+
+.versions{
+    display: -webkit-inline-box;
+    margin-left: 450px;
 }
