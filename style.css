@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 /*VARS*/
+html {
+    overflow-x: none;
+}
 
 body {
     margin: 0;
@@ -10,6 +13,8 @@ body {
     --gray: #8492A6;
     --black2: #1F2D3D;
     --aco: #273444;
+    --bg-news: linear-gradient(90deg, #131A22 7.11%, #2F3E51 74.04%);
+    --bg-infos-main: linear-gradient(180.1deg, #111111 27.81%, rgba(17, 17, 17, 0) 92.2%);
 }
 
 .bold{
@@ -184,7 +189,7 @@ body {
     position: relative;
     width: 410px;
     height: 514px;
-    background: linear-gradient(180.1deg, #111111 27.81%, rgba(17, 17, 17, 0) 92.2%);
+    background: var(--bg-infos-main);
     opacity: 0.8;
     padding-top: 80px;
     padding-left: 36px;
@@ -330,8 +335,7 @@ body {
 }
 
 /*date*/
-
-.day{
+.day-october{
     margin-left: 16px;
     margin-top: 10px;
     font-family: 'Raleway';
@@ -397,71 +401,37 @@ body {
     margin-top: 85px;
 }
 
-.day-ten, .day-eleven, .day-twelve{
-    height: 77px;
+.days div {
+    display: -webkit-inline-box;
+}
+
+.days {
+    margin-top: 85px;
+    margin-left: 21%;
+}
+
+.day {
+    border-left: solid 1px #D3DCE6;
+    margin-right: 130px;
+    height: 300px;
+}
+
+.day-title{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 160%;
     color: #3C4858;
-    display: inline-block;
-    margin-top: 127px;
 }
 
-.day-ten{
-    margin-left: 466px;
-    margin-right: 295px;
-}
-
-.day-eleven{
-    margin-right: 351px;
-}
-
-.line1, .line2, .line3{
-    width: 300px;
-    height: 1px;
-    background: #D3DCE6;
-    transform: rotate(90deg);
-    display: inline-block;
-    margin-top: 237px;
-    position: absolute;
-}
-
-.line1{
-    margin-left: 316px;
-}
-
-.line2{
-    margin-left: -150px;
-}
-
-.line3{
-    margin-left: -150px;
-}
-
-.content-day-ten, .content-day-eleven, .content-day-twelve{
+.day-content{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
-    text-align: left;
     color: #3C4858;
-    position: absolute;
-    margin-top: -25px;
-}
-
-.content-day-ten{
-    margin-left: 480px;
-}
-
-.content-day-eleven{
-    margin-left: 830px;
-}
-
-.content-day-twelve{
-    margin-left: 1228px;
 }
 
 .download-link{
@@ -483,3 +453,5 @@ body {
     margin-left: 30px;
     margin-top: 450px;
 }
+
+/*news*/
