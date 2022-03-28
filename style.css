@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 /*VARS*/
 html {
-    overflow-x: none;
+    overflow-y: none;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
     --aco: #273444;
     --bg-news: linear-gradient(90deg, #131A22 7.11%, #2F3E51 74.04%);
     --bg-infos-main: linear-gradient(180.1deg, #111111 27.81%, rgba(17, 17, 17, 0) 92.2%);
+    --card-gradient: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, #222222 95%);
 }
 
 .bold{
@@ -659,27 +660,69 @@ body {
     left: 300px;
 }
 
-.guest-photos{
-    display: inline-block;
-    margin-top: 83px;
-    margin-left: 380px;
-}
-
-.central-photo{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .arrowC{
     position: absolute;
     top: 2860px;
     left: 370px;
 }
 
+.guest-photos {
+    margin-left: 330px;
+}
+
+.guest-photos .guest-card{
+    display: -webkit-inline-box;
+    margin-left: 3%;
+    margin-top: 64px;
+}
+
+.guest-card:first-child {
+    background: var(--card-gradient), url(assets/img/warren_boffet.jpg);
+}
+.guest-card:nth-child(2) {
+    background: var(--card-gradient), url(assets/img/chris_gardner.jpg);
+}
+.guest-card:last-child {
+    background: var(--card-gradient), url(assets/img/luiz_barsi.jpg);
+}
+
+.guest-card{
+    height: 445px;
+    width: 325px;
+    position: relative;
+}
+
+.guest-infos{
+    position: relative;
+    top: 72%;
+    margin-left: 20px;
+}
+.guest-name{
+    color: #E62121;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.guest-job{
+    color: #E62121;
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #8492A6;
+}   
+
+.central-photo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .previous-editions{
     width: 100%;
     height: 236px;
-    background: linear-gradient(268.7deg, rgba(64, 222, 99, 0.17) 4.8%, rgba(229, 233, 242, 0) 66.94%);
+    background: no-repeat url(assets/img/bg-setas-esquerda.png), linear-gradient(268.7deg, rgba(64, 222, 99, 0.17) 4.8%, rgba(229, 233, 242, 0) 66.94%);
+    background-position: 100%;
     margin-top: 103px;
 }
 
@@ -724,7 +767,21 @@ body {
     color: #000000;
 }
 
-.version1, .version2, .version3, .version4{
+.card-versions{
+    background: no-repeat url(assets/img/bg-setas-direita.png);
+    background-position: 15%;
+}
+
+.versions{
+    display: -webkit-inline-box;
+    margin-left: 450px;
+    margin-bottom: 95px;
+}
+
+.version1, 
+.version2, 
+.version3, 
+.version4{
     width: 102px;
     height: 99px;
     border-radius: 5.66667px;
@@ -777,7 +834,23 @@ body {
     text-decoration: none;
 }
 
-.versions{
-    display: -webkit-inline-box;
-    margin-left: 450px;
+.top-footer {
+    width: 100%;
+    background-color: var(--aco);
+    text-align: center;
+    padding: 14px 13px;
+}
+
+.footer-content {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #3C4858;
+}
+
+.bot-footer {
+    background-color: var(--black2);
+    height: 30px;
+    width: 100%;
 }
